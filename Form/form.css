@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    height: 926px;
+    width: 428px;
+    position: relative;
+    border: 3px solid rgb(222, 219, 219);
+}
+
+.logo-img {
+    position: absolute;
+    height: 198px;
+    width: 198px;
+    top: 45px;
+    left: 116px;
+}
+
+.text {
+    position: absolute;
+    top: 258px;
+    left: 56px;
+    width: 318px;
+    height: 52px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+    line-height: 20px;
+    font-size: 14px;
+
+}
+
+.login {
+    position: absolute;
+    top: 362px;
+    left: 92px;
+    width: 40px;
+    height: 21px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sign {
+    position: absolute;
+    top: 362px;
+    left: 283px;
+    width: 49px;
+    height: 21px;
+    font-size: 16px;
+}
+
+hr {
+    position: absolute;
+    top: 393px;
+    left: 27px;
+    width: 188px;
+    height: 3px;
+    border: 1px solid #E70B89;
+    background-color: #E70B89;
+}
+
+.form-input{
+    position: absolute;
+    top: 440px;
+    left: 65px;
+    width: 300px;
+}
+
+input{
+    width: 100%;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 26px;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 17px;
+    color: #1A1A1A;
+}
+
+.btn-login{
+    width: 100%;
+    background-color: #E70B89;
+    border-radius: 26px;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 15px;
+}
+
+.form-input p{
+    text-align: right;
+    color: #E70B89;
+    margin-top: 12px;
+}
+
+.login-with{
+    position: absolute;
+    top: 702px;
+    left: 182px;
+    color: #9D9D9D;
+}
+
+.logo{
+    position: absolute;
+    top: 739px;
+    width: 300px;
+    height: 50px;
+    left: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo div{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #E6E6E6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo div img{
+    height: 25px;
+    width: 25px;
+}
+
+.account{
+    position: absolute;
+    top: 812px;
+    left: 95px;
+    font-size: 14px;
+    color: #1A1A1A;
+}
+
+
+.signing-up{
+    position: absolute;
+    top: 852px;
+    left: 40px;
+    font-size: 14px;
+    color: #1A1A1A;
+}
